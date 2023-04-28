@@ -23,8 +23,6 @@ p {
 }
 main {
     margin: 1em;
-    border: 2px solid steelblue;
-    background-color: azure;
     color: #333 ;
     text-align: center;
 }
