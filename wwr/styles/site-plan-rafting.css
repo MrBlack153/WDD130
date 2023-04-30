@@ -1,0 +1,25 @@
+@import url('https://fonts.google.com/')
+
+:root {
+    --primary-color: #8ECAE6;
+    --secondary-color: #219EBC;
+    --thrith-color: #023047; 
+
+    --heading-font: 'Roboto',serif;
+    --paragraph-font: 'Roboto',serif;
+
+    --nav-background-color: #8ECAE6;
+    --nav-link-color: var(--secondary-color);
+    --nav-hover-link-color: var(--secondary-color);
+
+}
+body {
+    font: var(--heading-font);
+    text-align: center;
+    padding: var(--thrith-color);
+
+}
+main {
+    text-align: var(--heading-font);
+    padding: 1erm;
+}
