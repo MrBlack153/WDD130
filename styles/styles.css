@@ -1,3 +1,17 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+    
+}
 nav {   
     background-color: steelblue;
     padding: 10px;
@@ -27,6 +41,7 @@ main {
     text-align: center;
 }
 aside{
+    
     margin: 1em;
     border: 2px solid steelblue;
     background-color: azure;
