@@ -12,39 +12,79 @@
     color: #000;
     
 }
+.temple {
+    font-size: 1rem;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+
+
+}
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+
+}
+
 nav {   
     background-color: steelblue;
-    padding: 10px;
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
 }
 nav a {
-    color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white; 
+    
 }
 h1 {
-    color: steelblue
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    color: steelblue;
+    
 }
 img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
-    box-shadow: 0 0 30px gray
+    box-shadow: 0 0 30px gray   
+}
+.sebas {
+    float: right;
+
+}
+.turismo {
+    display: flex;
+    justify-content: center;
 }
 p {
     padding: 10px;
     text-align: center;
 }
+.grid{
+    display: grid;
+    align-items: center;
+}
 main {
-    margin: 1em;
-    color: #333 ;
-    text-align: center;
+    grid-column: 3;
+    margin: 1rem;
 }
 aside{
-    
-    margin: 1em;
-    border: 2px solid steelblue;
-    background-color: azure;
-    color: #333 ;
-    text-align: center;
+    width: 20rem;
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+}
+h2 {
+    display: grid;
+    justify-content: center;
+    font-size: 19px;    
 }
