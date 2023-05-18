@@ -1,0 +1,87 @@
+
+header,body, footer {
+    max-width: 840px;
+    margin: 0 auto;
+    text-align-last: center;
+
+}
+/* This part set up the header I set up first the 
+nav box and them the object inside the nav */
+nav {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: brown; 
+
+}
+header {
+    flex-direction: column-reverse; 
+}
+.logo{
+    min-width: 100px;
+}
+.site{
+    min-width: 100px;
+}
+.about{
+    min-width: 100px;
+}
+.trips{
+    min-width: 100px;
+}
+.contact{
+    min-width: 100px;
+}
+/* Here I Finish the head */
+/* Lest continue with the main */
+
+.happiness{
+    font-size: 30px;
+    text-align: center;
+}
+.rafting {
+    display: block;
+    float: right;
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    box-shadow: 0 0 30px black;
+    justify-content: space-around;
+}
+
+.fun {
+    display: block;
+    float: left;
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    box-shadow: 0 0 30px black;
+    justify-content: space-around;
+}
+
+.parag {
+    display: block;
+    padding: 1rem;
+    justify-content: space-around;
+
+}
+.box {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+
+}
